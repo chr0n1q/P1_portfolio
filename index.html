@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html>
     <!--    HEAD    -->
     <head>
@@ -6,6 +6,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
+
+        <link href='https://fonts.googleapis.com/css?family=Lato:400,100' rel='stylesheet' type='text/css'>
         <link href="bootstrap-1 2/css/bootstrap-theme.min.css" rel="stylesheet">
         <link href="bootstrap-1 2/css/bootstrap.min.css" rel="stylesheet">
         <link href="styles.css" rel="stylesheet">
@@ -14,21 +16,22 @@
 
     <!--    BODY    -->
     <body>
-      <!--  PAGE HEADER -->
-        <div class="container">
+      <!--  container -->
+        <div class="container bg-custom">
 
           <div class="row">
             <div class="col-md-6">
-              <img class="img-responsive col-md-3" alt="udacity-logo" src="images/udacity_logo copy.svg"></img>
+              <img class="title-logo img-responsive col-md-5" alt="udacity-logo" src="images/udacity_logo copy.svg"></img>
             </div>
             <div class="col-md-6 text-uppercase text-right">
-              <h1>dustin longenecker</h1>
+              <h1 class="title-super text-thin">dustin longenecker</h1>
               <h3>freelance web developer</h3>
             </div>
           </div><!-- row -->
 
           <div class="row">
             <div class="col-md-12">
+              <hr>
             </div>
           </div><!-- row -->
 
@@ -40,25 +43,25 @@
 
           <div class="row">
             <div class="col-md-12 text-left">
-              <h2>Featured Work</h2>
+              <h2 class="text-muted">Featured Work</h2>
             </div>
           </div><!-- row -->
 
           <div class="row text-center">
             <div class="col-md-4">
-              <img src="#"></img>
+              <img src="http://placehold.it/350x150" data-toggle="modal" data-target="#project1"></img>
               <h4 class="text-uppercase">Intro Project</h4>
               <p>www.github.com/chr0n1q/aboutme_P0</p>
             </div>
 
             <div class="col-md-4">
-              <img src="#"></img>
+              <img src="http://placehold.it/350x150" data-toggle="modal" data-target="#project2"></img>
               <h4 class="text-uppercase">Portfolio Project</h4>
               <p>www.github.com/chr0n1q/portfolio_P1</p>
             </div>
 
             <div class="col-md-4">
-              <img src="#"></img>
+              <img src="http://placehold.it/350x150" data-toggle="modal" data-target="#project3"></img>
               <h4 class="text-uppercase">JavaScript Project</h4>
               <p>www.github.com/chr0n1q/jsproj_P2</p>
             </div>
@@ -66,9 +69,66 @@
         </div><!-- container -->
 
 
+
+        <!-- Modal PROJECT 1-->
+        <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">About Me Project</h4>
+              </div>
+              <div class="modal-body">
+                <img class="img-responsive" src="images/555.jpeg">
+                This was my first project in this class. I learned a lot about HTML and CSS.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal PROJECT 2-->
+        <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">Portfolio Project</h4>
+              </div>
+              <div class="modal-body">
+                <img class="img-responsive" src="images/555.jpeg">
+                This was my second project in this class. I learned a lot more about HTML and CSS. I also learned how to apply Bootstrap framework while also adding custom CSS.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal PROJECT 3-->
+        <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">Online Resume Project</h4>
+              </div>
+              <div class="modal-body">
+                <img class="img-responsive" src="images/555.jpeg">
+                This was my third project in this class. I learned a lot about HTML and CSS. I also added knowledge of JQuery/JavaScript.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
         <!-- scripts -->
-        <script src="bootstrap-1 2/js/config.json"></script>
-        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="bootstrap-1 2/js/jquery-2.2.0.min.js"></script>
+        <script src="bootstrap-1 2/js/bootstrap.min.js"></script>
     </body>
 
 </html>

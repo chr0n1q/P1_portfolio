@@ -3,6 +3,26 @@
 
 body{
 
-  background: rgba(#000000, 0.63) !important;
+  font-family: 'lato', sans-serif;
+  font-weight: 400px;
   color:#00ff38;
+}
+.container{
+  background-color: rgba(#000000, 0.69);
+}
+.title-super{
+    font-size: 45px;
+}
+.title-logo{
+  margin-top:20px;
+
+}
+.text-muted{
+  color:#8000ff;
+}
+.text-thin{
+  font-weight:100;
+}
+.bg-custom{
+  background-color: rgba(#000000, 0.69);
 }
