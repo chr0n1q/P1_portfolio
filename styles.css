@@ -1,4 +1,8 @@
 /** the styles **/
-.container{
-  border-bottom: 2px solid black;
+
+
+body{
+
+  background: rgba(#000000, 0.63) !important;
+  color:#00ff38;
 }
