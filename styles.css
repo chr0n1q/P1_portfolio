@@ -45,7 +45,14 @@ hr{
 .text-thin{
   font-weight:100;
 }
+#contentimg{
+  height: 900px;
+}
 
+#ulogo{
+  height: 200px;
+  width: 400px;
+}
 
 .gray-container{
   border: 3px solid #8000ff;
@@ -81,6 +88,11 @@ hr{
   border:3px solid #00ffff;
   background-color: #242424;
   border-radius: 25px;
+}
 
-
+.modal{
+  background-color:gray;
+}
+.modal-content{
+  background-color: gray;
 }
