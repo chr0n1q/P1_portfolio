@@ -90,18 +90,28 @@ hr {
   border:3px solid #00ff38;
   background-color: #242424;
   border-radius: 25px;
+  height: 300px;
+  width: 325px;
+  margin: 0 15px;
+
 }
 
 .box-2 {
   border:3px solid #8000ff;
   background-color: #242424;
   border-radius: 25px;
+  height: 300px;
+  width: 325px;
+  margin: 0 0 0 15px;
 }
 
 .box-3 {
   border: 3px solid #00ffff;
   background-color: #242424;
   border-radius: 25px;
+  height: 300px;
+  width: 325px;
+  margin: 0 15px;
 }
 
 .modal {
@@ -117,12 +127,12 @@ hr {
   max-width: 100%;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 960px) {
   /* For mobile phones: */
   max-width: 100%;
 }
 
-@media only screen and (max-width: 1050px) {
+@media only screen and (max-width: 1160px) {
   /* For mobile phones: */
   max-width: 100%;
 }
