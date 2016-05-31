@@ -1,98 +1,138 @@
 /** the styles **/
 
+body {
 
-body{
-
-  font-family: 'lato', sans-serif;
+  font-family: "lato", sans-serif;
   font-weight: 400px;
-  color:#00ff38;
+  color: #00ff38;
   background-color: grey;
 }
+
 a {
   color: #8000ff;
-}
-.h4{
-  color:00ffff;
+  text-decoration:none;
 }
 
-hr{
+iframe {
+  border: 0;
+  height: 142px;
+  width: 200px;
+  overflow: hidden;
+}
+
+#linkedin {
+  font: 80% Arial,sans-serif;
+  vertical-align:middle;
+  color:#0783B6;
+}
+
+.h4 {
+  color: #00ffff;
+}
+
+hr {
   border: 2px solid #00ffff;
 }
 
-.blue-font{
+.blue-font {
   color: #fff;
 }
 
-.container{
-  padding-top:40px;
-  padding-bottom:50px;
+.container {
+  padding: 40px 0 50px 0;
   background-color: black;
   border: 3px solid #8000ff;
   border-radius: 25px;
 }
-.banner-img{
+
+.banner-img {
 
 }
 
-.title-super{
-    color:#8000ff;
+.title-super {
+    color: #8000ff;
     font-size: 45px;
 }
 
-.text-muted{
-  color:#00ffff;
+.text-muted {
+  color: #00ffff;
 }
-.text-thin{
-  font-weight:100;
+
+.text-thin {
+  font-weight: 100;
 }
-#contentimg{
+
+#contentimg {
   height: 900px;
 }
 
-#ulogo{
+#ulogo {
   height: 200px;
   width: 400px;
 }
 
-.gray-container{
+.gray-container {
   border: 3px solid #8000ff;
   background-color: #242424;
   border-radius: 25px;
-  margin-left: 13px;
-  margin-right: 13px;
+  margin: 0 13px;
 }
 
-.purple-container{
+.purple-container {
   border: 3px solid #00ff38;
   background-color: #242424;
-  border-radius:25px;
-  padding-top:20px;
-  margin-left:13px;
-  margin-right:13px;
+  border-radius: 25px;
+  padding-top: 20px;
+  margin: 0 13px;
 }
 
-.box-1{
+.box-1 {
   border:3px solid #00ff38;
   background-color: #242424;
   border-radius: 25px;
-
+  height: 300px;
+  width: 325px;
+  margin: 0 15px;
 
 }
-.box-2{
+
+.box-2 {
   border:3px solid #8000ff;
   background-color: #242424;
   border-radius: 25px;
-
+  height: 300px;
+  width: 325px;
+  margin: 0 0 0 15px;
 }
-.box-3{
-  border:3px solid #00ffff;
+
+.box-3 {
+  border: 3px solid #00ffff;
   background-color: #242424;
   border-radius: 25px;
+  height: 300px;
+  width: 325px;
+  margin: 0 15px;
 }
 
-.modal{
-  background-color:gray;
-}
-.modal-content{
+.modal {
   background-color: gray;
+}
+
+.modal-content {
+  background-color: gray;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 960px) {
+  /* For mobile phones: */
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 1200px) {
+  /* For mobile phones: */
+  max-width: 100%;
 }
